@@ -1,0 +1,199 @@
+@property --index {
+	inherits: true;
+	initial-value: 1;
+	syntax: '<number>';
+}
+
+@property --direction {
+	inherits: true;
+	initial-value: 180deg;
+	syntax: '<angle>';
+}
+
+@property --y {
+	inherits: true;
+	initial-value: 0%;
+	syntax: '<length-percentage>';
+}
+
+.biography {
+	@apply relative
+	px-safe-offset-7
+	md:border-b
+	md:border-noir-700
+	md:px-safe-offset-14;
+
+	p {
+		@apply leading-normal
+		text-noir-200;
+	}
+}
+
+.wrapper {
+	@apply mx-auto
+	grid
+	max-w-screen-hd
+	md:grid-cols-12;
+}
+
+.figure {
+	@apply absolute
+	left-0
+	top-0
+	z-[-1]
+	h-96
+	w-full
+	md:h-full
+	md:w-7/12;
+
+	mask: linear-gradient(var(--direction), black 75%, transparent 100%);
+
+	@screen md {
+		mask: linear-gradient(var(--direction), black 50%, transparent 100%);
+
+		--direction: 90deg;
+	}
+
+	img {
+		@apply absolute
+		left-0
+		top-0
+		h-full
+		w-full
+		translate-y-[var(--y)]
+		object-cover;
+
+		object-position: 50% 25%;
+	}
+
+	div {
+		@apply pointer-events-none
+		absolute
+		h-full
+		w-full;
+
+		backdrop-filter: blur(calc(var(--index) * 1px));
+		mask: linear-gradient(
+			var(--direction),
+			transparent calc(var(--index) * 6.25% + 50%),
+			black calc(var(--index) * 6.25% + 56.25%),
+			black calc(var(--index) * 6.25% + 62.5%),
+			transparent calc(var(--index) * 6.25% + 68.75%)
+		);
+		z-index: var(--index);
+	}
+}
+
+.profile {
+	@apply pt-72
+	md:col-start-6
+	md:-col-end-1
+	md:py-16
+	2xl:col-start-8
+	2xl:py-32;
+
+	p {
+		@apply text-sm
+		md:text-base
+		xl:text-2xl;
+
+		strong {
+			@apply text-white;
+		}
+	}
+
+	.name {
+		@apply mb-4
+		font-display
+		text-4xl
+		leading-tight
+		tracking-tighter
+		text-white
+		lg:mb-6
+		lg:text-5xl
+		xl:text-7xl;
+	}
+}
+
+.stats {
+	@apply mb-8
+	grid
+	grid-cols-3
+	gap-x-2.5
+	lg:mb-12;
+
+	li {
+		@apply flex
+		flex-col
+		rounded
+		bg-white/10
+		px-3
+		py-2
+		backdrop-blur-lg
+		md:px-4
+		md:py-2.5
+		lg:px-6
+		lg:py-3;
+	}
+
+	span:first-child {
+		@apply text-sm
+		leading-tight
+		text-noir-200
+		md:text-base
+		md:leading-tight
+		xl:text-lg
+		xl:leading-tight;
+	}
+
+	span:last-child {
+		@apply text-lg
+		leading-tight
+		lg:text-2xl
+		lg:leading-tight
+		xl:text-3xl
+		xl:leading-tight;
+	}
+}
+
+.interests {
+	@apply mb-12
+	mt-1.5
+	flex
+	flex-wrap
+	gap-x-1
+	gap-y-1.5
+	lg:mb-16
+	lg:mt-3
+	lg:gap-x-2
+	lg:gap-y-2.5;
+
+	li {
+		@apply rounded-full
+		border
+		border-noir-800
+		bg-noir-900
+		px-3
+		py-1.5
+		text-sm
+		md:px-4
+		md:py-2
+		md:text-base
+		lg:px-6
+		lg:py-2.5
+		lg:text-lg
+		xl:px-8
+		xl:py-3
+		xl:text-2xl;
+	}
+}
+
+@keyframes parallax {
+	from {
+		transform: translate3d(0, 0, 0);
+	}
+
+	to {
+		transform: translate3d(0, 20%, 0);
+	}
+}

@@ -1,0 +1,114 @@
+@property --index {
+	inherits: true;
+	initial-value: 1;
+	syntax: '<number>';
+}
+
+@property --reverse-index {
+	inherits: true;
+	initial-value: 1;
+	syntax: '<number>';
+}
+
+@property --numcards {
+	inherits: true;
+	initial-value: 4;
+	syntax: '<number>';
+}
+
+@property --start-range {
+	inherits: true;
+	initial-value: 100%;
+	syntax: '<percentage>';
+}
+
+@property --end-range {
+	inherits: true;
+	initial-value: 100%;
+	syntax: '<percentage>';
+}
+
+.projects {
+	@apply rounded
+	pt-2
+	px-safe-offset-2
+	md:pt-14
+	md:px-safe-offset-14
+	lg:pt-32;
+
+	view-timeline-name: --cards-element-scrolls-in-body;
+
+	> div {
+		@apply mx-auto
+		grid
+		max-w-screen-hd
+		gap-2
+		md:grid-cols-2
+		lg:gap-5;
+	}
+}
+
+.project {
+	--reverse-index: calc(var(--numcards) - var(--index));
+
+	@apply top-2
+	origin-top
+	brightness-100
+	max-md:sticky;
+
+	@media (max-width: 767.9px) {
+		margin-top: calc(var(--index) * -16px);
+		padding-top: calc(var(--index) * 16px);
+	}
+
+	> div {
+		@apply relative
+		flex
+		h-[30rem]
+		flex-col
+		justify-between
+		overflow-clip
+		rounded
+		bg-noir-950/35
+		px-5
+		py-8
+		lg:h-[40rem]
+		lg:p-16;
+	}
+
+	.logo {
+		@apply pointer-events-none
+		max-h-20
+		select-none
+		object-contain
+		object-left;
+	}
+
+	.title {
+		@apply text-balance
+		font-display
+		text-3xl
+		leading-none
+		tracking-tighter
+		lg:text-4xl;
+	}
+
+	.background {
+		@apply z-[-1]
+		object-cover
+		transition-all
+		duration-500
+		ease-out;
+
+		clip-path: inset(0 round theme('borderRadius.DEFAULT'));
+	}
+
+	@screen lg {
+		&:hover .background,
+		&:focus .background {
+			@apply scale-105;
+
+			clip-path: inset(theme('space.9') round theme('borderRadius.3xl'));
+		}
+	}
+}

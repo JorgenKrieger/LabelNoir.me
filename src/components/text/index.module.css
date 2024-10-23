@@ -1,0 +1,47 @@
+.text {
+	@apply mx-auto
+	mb-6
+	mt-24
+	max-w-screen-hd
+	space-y-[1em]
+	md:mb-10
+	md:mt-32
+	lg:mb-16
+	lg:mt-40
+	xl:mb-32
+	xl:mt-96;
+
+	p {
+		@apply max-w-80
+		text-pretty
+		md:max-w-[min(45rem,75%)]
+		lg:max-w-[75%];
+	}
+
+	ul:not([class]),
+	ol:not([class]) {
+		@apply ml-[1em]
+		max-w-80
+		space-y-2
+		text-pretty
+		text-sm
+		text-noir-200
+		md:max-w-[min(45rem,75%)]
+		md:text-base
+		lg:max-w-[75%]
+		lg:text-lg
+		lg:leading-normal
+		xl:text-xl
+		xl:leading-normal
+		hd:text-2xl
+		hd:leading-normal;
+	}
+
+	ol:not([class]) {
+		@apply list-decimal;
+	}
+
+	ul:not([class]) {
+		@apply list-disc;
+	}
+}

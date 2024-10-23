@@ -1,0 +1,50 @@
+.link {
+	--icon-offset: 1rem;
+	--icon-size: 1.5em;
+
+	@apply relative
+	inline-flex
+	items-center
+	gap-x-2;
+
+	.icon {
+		@apply absolute
+		grid
+		size-[var(--icon-size)]
+		place-items-center
+		rounded
+		bg-noir-800
+		text-noir-100
+		transition-all;
+
+		svg {
+			@apply size-[0.5em];
+
+			&.large {
+				@apply size-[0.75em];
+			}
+		}
+	}
+
+	&:hover .icon {
+		@apply w-full
+		bg-noir-50
+		text-noir-950;
+	}
+}
+
+.iconLeft:has(.icon) {
+	padding-left: calc(var(--icon-offset) + var(--icon-size));
+
+	.icon {
+		@apply left-0;
+	}
+}
+
+.iconRight:has(.icon) {
+	padding-right: calc(var(--icon-offset) + var(--icon-size));
+
+	.icon {
+		@apply right-0;
+	}
+}

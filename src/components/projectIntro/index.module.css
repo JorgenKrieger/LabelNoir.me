@@ -1,0 +1,63 @@
+.projectIntro {
+	@apply relative
+	mx-auto
+	mb-6
+	mt-12
+	flex
+	max-w-screen-hd
+	flex-col
+	items-start
+	gap-8
+	text-base
+	md:mb-10
+	md:mt-14
+	md:grid
+	md:grid-cols-4
+	lg:mb-16
+	lg:mt-24
+	lg:text-2xl
+	lg:leading-normal
+	xl:mb-32
+	xl:text-3xl
+	xl:leading-normal
+	2xl:mt-48;
+
+	img {
+		@apply max-h-20;
+	}
+
+	p {
+		@apply max-w-80
+		text-pretty
+		text-noir-200
+		md:max-w-[34rem]
+		lg:max-w-[80%]
+		xl:max-w-none;
+
+		line-height: inherit;
+	}
+
+	.content {
+		@apply flex
+		flex-col
+		items-start
+		gap-y-4
+		md:col-span-3
+		lg:gap-y-8;
+	}
+}
+
+.projectUrl {
+	@apply absolute
+	right-0
+	top-0
+	transition-all
+	duration-150
+	md:relative;
+
+	text-shadow: 0 0 5px transparent;
+
+	&:hover {
+		text-shadow: 0 0 5px white;
+	}
+}

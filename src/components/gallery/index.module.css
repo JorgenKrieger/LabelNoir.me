@@ -1,0 +1,27 @@
+.gallery {
+	@apply grid
+	w-full
+	grid-cols-5
+	items-end
+	gap-x-2
+	md:gap-x-4
+	lg:gap-x-6
+	xl:gap-x-8;
+
+	> :first-child {
+		@apply col-span-3
+		h-full;
+	}
+
+	> :last-child {
+		@apply col-span-2;
+	}
+
+	img {
+		@apply w-full
+		object-cover
+		portrait:max-h-[50svh]
+		landscape:max-h-[90vh]
+		landscape:lg:max-h-[75svh];
+	}
+}

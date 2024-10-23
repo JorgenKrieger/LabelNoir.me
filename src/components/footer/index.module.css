@@ -1,0 +1,85 @@
+.footer {
+	@apply pb-7
+	pt-32
+	px-safe-offset-7
+	md:pb-14
+	md:px-safe-offset-14
+	hd:py-48;
+
+	div {
+		@apply mx-auto
+		flex
+		max-w-screen-hd
+		flex-col
+		gap-y-6
+		md:gap-y-12
+		xl:gap-y-24;
+	}
+
+	p {
+		@apply max-w-80
+		text-balance
+		font-display
+		text-3xl
+		leading-none
+		tracking-tighter
+		text-white
+		md:w-3/4
+		md:max-w-full
+		md:text-5xl
+		md:leading-none
+
+		lg:text-6xl
+		xl:text-8xl;
+	}
+
+	ul {
+		@apply grid
+		gap-x-2.5
+		gap-y-2
+		xs:grid-cols-2
+		lg:grid-cols-4
+		lg:gap-x-5;
+	}
+
+	li {
+		background-image: linear-gradient(
+			to bottom,
+			transparent calc(100% - 1px),
+			theme('colors.noir.700') calc(100% - 1px)
+		);
+	}
+
+	nav {
+		@apply grid
+		gap-x-2.5
+		gap-y-2
+		text-base
+		xs:grid-cols-2
+		lg:grid-cols-4
+		lg:gap-x-5
+		lg:text-xl
+		xl:text-2xl
+		2xl:text-3xl;
+	}
+}
+
+@keyframes link-hover {
+	0% {
+		background-size: 0 100%;
+	}
+
+	100% {
+		background-size: 100% 100%;
+	}
+}
+
+@keyframes link-hover-leave {
+	0% {
+		background-size: 100% 100%;
+	}
+
+	100% {
+		background-size: 0 100%;
+	}
+}

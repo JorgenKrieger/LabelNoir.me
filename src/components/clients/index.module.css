@@ -1,0 +1,49 @@
+.clients {
+	@apply py-16
+	px-safe-offset-7
+	md:py-24
+	md:px-safe-offset-14
+	lg:py-64;
+
+	div {
+		@apply mx-auto
+		max-w-screen-hd
+		space-y-12
+		font-display
+		text-2xl
+		leading-tight
+		tracking-tighter
+		md:text-3xl
+		md:leading-tight
+		lg:space-y-20
+		lg:text-4xl
+		lg:leading-tight
+		xl:space-y-24
+		xl:text-6xl
+		xl:leading-tight;
+	}
+
+	p {
+		@apply w-80
+		text-balance
+		text-white
+		md:w-3/4;
+
+		font-size: inherit;
+		line-height: inherit;
+	}
+
+	ul {
+		@apply flex
+		flex-wrap
+		gap-x-6
+		gap-y-4
+		lg:gap-x-16
+		lg:gap-y-8;
+
+		li {
+			@apply font-bold
+			blur-0;
+		}
+	}
+}

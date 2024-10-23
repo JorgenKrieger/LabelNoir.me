@@ -1,0 +1,14 @@
+@import './tailwind.css';
+@import './typography.css';
+
+.wrapper {
+	@apply px-safe-offset-7
+	md:px-safe-offset-14;
+}
+
+.smallWrapper {
+	@apply px-safe-offset-2
+	md:px-safe-offset-4
+	lg:px-safe-offset-6
+	xl:px-safe-offset-8;
+}

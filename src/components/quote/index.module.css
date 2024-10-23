@@ -1,0 +1,24 @@
+.quote {
+	@apply relative
+	mx-auto
+	mb-12
+	max-w-screen-hd
+	text-balance
+	font-display
+	text-5xl
+	font-medium
+	leading-tight
+	tracking-tighter
+	before:absolute
+	before:left-0
+	before:top-0
+	before:-translate-x-full
+	before:content-['“']
+	after:content-['”']
+	md:mb-24
+	md:text-6xl
+	md:leading-tight
+	lg:mb-32
+	lg:text-7xl
+	lg:leading-tight;
+}

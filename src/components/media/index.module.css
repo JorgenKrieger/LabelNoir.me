@@ -1,0 +1,33 @@
+@property --inset {
+	inherits: true;
+	initial-value: 0;
+	syntax: '<length>';
+}
+
+@property --radius {
+	inherits: true;
+	initial-value: 0;
+	syntax: '<length>';
+}
+
+.media {
+	@apply mx-auto
+	overflow-clip;
+
+	img,
+	video {
+		@apply h-auto
+		w-full
+		object-cover
+		portrait:max-h-[50svh]
+		landscape:max-h-[90vh];
+
+		clip-path: inset(0 var(--inset) round var(--radius));
+	}
+
+	+ .media {
+		@apply mt-8
+		md:mt-12
+		lg:mt-16;
+	}
+}

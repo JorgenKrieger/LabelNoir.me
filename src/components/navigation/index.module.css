@@ -1,0 +1,34 @@
+.navigation {
+	@apply absolute
+	left-0
+	top-7
+	z-50
+	w-full
+	px-safe-offset-7
+	md:top-14
+	md:px-safe-offset-14;
+
+	div {
+		@apply mx-auto
+		max-w-screen-hd;
+	}
+
+	a {
+		@apply block
+		w-max
+		rounded-sm
+		transition
+		focus:outline-0
+		hocus:-rotate-3
+		hocus:scale-110
+		hocus:bg-noir-900
+		hocus:ring-[3px]
+		hocus:ring-white
+		hocus:ring-offset-8
+		hocus:ring-offset-noir-900;
+	}
+
+	img {
+		@apply xl:w-20;
+	}
+}

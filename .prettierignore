@@ -1,0 +1,20 @@
+# Node.js
+node_modules
+
+# Next.js
+.next
+build
+
+# Tests
+coverage
+
+# Vercel
+.vercel
+
+# TurboRepo
+.turbo
+
+# Cache Files
+.eslintcache
+.stylelintcache
+.prettiercache

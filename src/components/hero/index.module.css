@@ -1,0 +1,60 @@
+@property --y {
+	inherits: true;
+	initial-value: 0%;
+	syntax: '<percentage>';
+}
+
+.hero {
+	@apply relative
+	overflow-clip
+	pb-12
+	pt-72
+	px-safe-offset-7
+	md:pb-16
+	md:px-safe-offset-14
+	xl:pb-24
+	landscape:pt-48
+	landscape:lg:pt-72;
+
+	div {
+		@apply mx-auto
+		flex
+		max-w-screen-hd
+		flex-col
+		gap-y-8
+		xl:gap-y-12;
+	}
+
+	img {
+		@apply absolute
+		left-0
+		top-0
+		z-[-1]
+		h-full
+		w-full
+		translate-y-[var(--y)]
+		object-cover;
+	}
+
+	h1 {
+		@apply text-balance
+		font-display
+		text-4xl
+		tracking-tighter
+		md:text-5xl
+		xl:w-1/2
+		xl:text-7xl;
+	}
+
+	p {
+		@apply text-balance
+		md:text-lg
+		xl:w-1/2
+		xl:text-2xl;
+
+		strong {
+			@apply inline-block
+			text-noir-50;
+		}
+	}
+}
