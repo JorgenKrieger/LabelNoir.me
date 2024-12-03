@@ -6,7 +6,6 @@ import Gallery from '@/components/gallery';
 import Hero from '@/components/hero';
 import Media from '@/components/media';
 import ProjectIntro from '@/components/projectIntro';
-import Quote from '@/components/quote';
 import Text from '@/components/text';
 
 const marqueeData = {
@@ -22,7 +21,7 @@ export const metadata: Metadata = {
 
 const Page = () => (
 	<main>
-		<Hero background="/cases/kcb/hero.jpg" dark={false} className="object-[50%,16.25%]">
+		<Hero background="/cases/kcb/thumbnail.jpg" dark={false} className="object-[50%,16.25%]">
 			<h1>Freshening up KCB’s online presence</h1>
 		</Hero>
 
@@ -53,7 +52,7 @@ const Page = () => (
 			</p>
 		</ProjectIntro>
 
-		<Quote>This really brings KCB into 2024.</Quote>
+		{/*<Quote>This really brings KCB into 2024.</Quote>*/}
 
 		<Media>
 			<Image

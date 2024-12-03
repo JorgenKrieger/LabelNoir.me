@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 const Page = () => (
 	<main>
-		<Hero background="/cases/bakertilly/background.jpg" dark={false}>
+		<Hero background="/cases/bakertilly/thumbnail.jpg" dark={false}>
 			<h1>A transitional design update</h1>
 		</Hero>
 
@@ -38,9 +38,9 @@ const Page = () => (
 
 		<ProjectIntro
 			logo={{
-				src: '/cases/bakertilly/logo.svg',
-				width: 180,
-				height: 48,
+				src: '/cases/bakertilly/logo-mark.svg',
+				width: 90,
+				height: 90,
 			}}
 			url="https://bakertilly.nl"
 		>
@@ -119,10 +119,10 @@ const Page = () => (
 
 		<Media>
 			<Image
-				src="/cases/bakertilly/bt-theme.jpg"
-				alt="Theme section on the homepage"
-				width={2560}
-				height={1707}
+				src="/cases/bakertilly/about.jpg"
+				alt="About Baker Tilly"
+				width={1920}
+				height={1210}
 			/>
 		</Media>
 	</main>

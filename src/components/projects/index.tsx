@@ -47,6 +47,54 @@ const Projects = () => {
 			<div>
 				<ProjectTile
 					index={1}
+					title="Blauwhoed"
+					logo={{
+						src: '/cases/blauwhoed/logo.svg',
+						alt: '',
+						width: 90,
+						height: 90,
+					}}
+					background="/cases/blauwhoed/thumbnail.jpg"
+					url="/work/blauwhoed"
+				/>
+				<ProjectTile
+					index={2}
+					title="Amvest"
+					logo={{
+						src: '/cases/amvest/logo.svg',
+						alt: '',
+						width: 90,
+						height: 90,
+					}}
+					background="/cases/amvest/thumbnail.jpg"
+					url="/work/amvest"
+				/>
+				<ProjectTile
+					index={3}
+					title="Gebroeders Blokland"
+					logo={{
+						src: '/cases/gebroeders-blokland/logo.svg',
+						alt: '',
+						width: 90,
+						height: 90,
+					}}
+					background="/cases/gebroeders-blokland/thumbnail.jpg"
+					url="/work/gebroeders-blokland"
+				/>
+				<ProjectTile
+					index={4}
+					title="UNO"
+					logo={{
+						src: '/cases/uno/logo.svg',
+						alt: '',
+						width: 90,
+						height: 90,
+					}}
+					background="/cases/uno/thumbnail.jpg"
+					url="/work/uno"
+				/>
+				<ProjectTile
+					index={5}
 					title="Freshening up KCB’s online presence"
 					logo={{
 						src: '/cases/kcb/logo.png',
@@ -54,43 +102,43 @@ const Projects = () => {
 						height: 320,
 						alt: '',
 					}}
-					background="/cases/kcb/hero.jpg"
+					background="/cases/kcb/thumbnail.jpg"
 					url="/work/kcb"
 				/>
 				<ProjectTile
-					index={2}
+					index={6}
 					title="A transitional design update"
 					logo={{
-						src: '/cases/bakertilly/logo.svg',
-						width: 180,
-						height: 84,
+						src: '/cases/bakertilly/logo-mark.svg',
+						width: 90,
+						height: 90,
 						alt: '',
 					}}
-					background="/cases/bakertilly/background.jpg"
+					background="/cases/bakertilly/thumbnail.jpg"
 					url="/work/bakertilly"
 				/>
 				<ProjectTile
-					index={3}
+					index={7}
 					title="Constructing a design system for internal apps"
 					logo={{
-						src: '/cases/heijmans/logo.svg',
+						src: '/cases/heijmans-vastgoed/mark.svg',
 						alt: '',
-						width: 938,
-						height: 438,
+						width: 90,
+						height: 90,
 					}}
-					background="/cases/heijmans/background.jpeg"
-					url="/work/heijmans-infra"
+					background="/cases/heijmans-vastgoed/thumbnail.jpg"
+					url="/work/heijmans-vastgoed"
 				/>
 				<ProjectTile
-					index={4}
+					index={8}
 					title="Spreading the love for cooking"
 					logo={{
-						src: '/cases/keukenliefde/logo.png',
+						src: '/cases/keukenliefde/logo.svg',
 						alt: '',
-						width: 234,
-						height: 136,
+						width: 90,
+						height: 90,
 					}}
-					background="/cases/keukenliefde/background.jpg"
+					background="/cases/keukenliefde/thumbnail.jpg"
 					url="/work/keukenliefde"
 				/>
 			</div>

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 const Page = () => (
 	<main>
-		<Hero background="cases/keukenliefde/background.jpg" dark={false}>
+		<Hero background="cases/keukenliefde/thumbnail.jpg" dark={false}>
 			<h1>Spreading the love for cooking</h1>
 		</Hero>
 
@@ -37,7 +37,7 @@ const Page = () => (
 			))}
 		</Marquee>
 
-		<ProjectIntro logo="cases/keukenliefde/logo.png" url="https://keukenliefde.nl">
+		<ProjectIntro logo="cases/keukenliefde/logo.svg" url="https://keukenliefde.nl">
 			<p className="intro">
 				Annemiek is a food blogger who delights her visitors with amazing recipes and a view
 				inside her kitchen and daily live as a food blogger. For her 5th anniversary, she

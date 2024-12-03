@@ -1,6 +1,23 @@
+import fs from 'fs';
+import path from 'path';
+
 import type { MetadataRoute } from 'next';
 
 import { BASE_URL } from '@/util/constants';
+
+// Path to the /app/work directory
+const workDir = path.join(process.cwd(), 'src', 'app', 'work');
+
+// Get folder names
+let folderNames: Array<string> = [];
+try {
+	folderNames = fs.readdirSync(workDir).filter(item => {
+		const itemPath = path.join(workDir, item);
+		return fs.statSync(itemPath).isDirectory(); // Only include directories
+	});
+} catch (err) {
+	console.error('Error reading /app/work directory:', err);
+}
 
 const sitemap = (): MetadataRoute.Sitemap => {
 	return [
@@ -10,30 +27,11 @@ const sitemap = (): MetadataRoute.Sitemap => {
 			changeFrequency: 'yearly',
 			priority: 1,
 		},
-		{
-			url: `${BASE_URL}/work/bakertilly`,
+		...folderNames.map(project => ({
+			url: `${BASE_URL}/work/${project}`,
 			lastModified: new Date(),
-			changeFrequency: 'never',
 			priority: 0.5,
-		},
-		{
-			url: `${BASE_URL}/work/heijmans-infra`,
-			lastModified: new Date(),
-			changeFrequency: 'never',
-			priority: 0.5,
-		},
-		{
-			url: `${BASE_URL}/work/kcb`,
-			lastModified: new Date(),
-			changeFrequency: 'never',
-			priority: 0.5,
-		},
-		{
-			url: `${BASE_URL}/work/keukenliefde`,
-			lastModified: new Date(),
-			changeFrequency: 'never',
-			priority: 0.5,
-		},
+		})),
 	];
 };
 
