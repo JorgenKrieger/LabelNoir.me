@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const Page = () => (
 	<main>
 		<Hero background="cases/uno/thumbnail.jpg" dark={false}>
-			<h1>UNO</h1>
+			<h1>Evolving together: Crafting UNO's digital journey</h1>
 		</Hero>
 
 		<Marquee autoFill className="border-b border-noir-700 py-6 xl:py-8">

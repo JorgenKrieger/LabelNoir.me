@@ -45,10 +45,11 @@ const Page = () => (
 			url="https://bakertilly.nl"
 		>
 			<p className="intro">
-				The Dutch part of Baker Tilly request for ROX was a simple redesign of their website
-				in order to make maintainability less costly. Interestingly, during the process, the
-				international network rolled out a new design language. With this in mind, the new
-				website had to become a bridge to the upcoming rollout later on.
+				In 2022 Baker Tilly contacted ROX to create a new corporate website. An effort to
+				make maintenance cheaper and the functionalities more accommodating. Interestingly,
+				during the process, the international network rolled out a new design language. With
+				this in mind, the new website had to become a bridge to the upcoming rollout later
+				on.
 			</p>
 		</ProjectIntro>
 
@@ -66,9 +67,8 @@ const Page = () => (
 			<p>
 				The original request was pretty basic. Create a new website that's easy to maintain
 				and modernizes our look &amp; feel. But with the introduction of the new design
-				language a new problem surfaced. How do we create a website that maintains the old
-				recognizable identity, while also preparing for the new and upcoming global design
-				changes.
+				language a new problem surfaced. How do we balance the old recognizable style with
+				the upcoming changes?
 			</p>
 		</Text>
 
@@ -76,10 +76,10 @@ const Page = () => (
 			<h2>Transitional style</h2>
 			<p>
 				By blending the two styles into one we managed to create a transitional design
-				style. This temporary style's primary function was to introduce the upcoming global
-				design changes, while maintaining the recognizable identity that Baker Tilly
-				boasted. Besides a smoother transition for clients, this provided the Dutch agencies
-				time to finish up supplies like stationeries.
+				style. The primary function was to introduce the new upcoming global style.
+				Secondarily, this style remained recognizable to existing clients. Lastly, this
+				provided Baker Tilly with a smoother transition period. Perfect for finishing up the
+				existing inventory of supplies.
 			</p>
 		</Text>
 

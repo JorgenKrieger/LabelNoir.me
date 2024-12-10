@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22b7ad21-1d6a-4cfd-a0f8-6b4edd70feb3" name="Changes" comment="" />
+    <list default="true" id="22b7ad21-1d6a-4cfd-a0f8-6b4edd70feb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/work/blauwhoed/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/work/amvest/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/work/amvest/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/work/bakertilly/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/work/bakertilly/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/work/gebroeders-blokland/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/work/gebroeders-blokland/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/work/heijmans-vastgoed/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/work/heijmans-vastgoed/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/work/uno/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/work/uno/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JorgenKrieger&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:JorgenKrieger/labelnoir.me.git&quot;,
+    &quot;accountId&quot;: &quot;f5e7ec09-04c2-4f3f-bc65-020dc593ab52&quot;
+  }
+}</component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -42,6 +64,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "development",
     "last_opened_file_path": "/Users/jorgen/labelnoir/www.labelnoir.me/src/app/work",
@@ -94,7 +117,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
       </set>
     </attachedChunks>
   </component>
@@ -128,7 +151,10 @@
       <workItem from="1729342192241" duration="9554000" />
       <workItem from="1729711972030" duration="247000" />
       <workItem from="1732490231454" duration="2400000" />
-      <workItem from="1732731517863" duration="16335000" />
+      <workItem from="1732731517863" duration="36317000" />
+      <workItem from="1733611784711" duration="648000" />
+      <workItem from="1733612621797" duration="294000" />
+      <workItem from="1733860560589" duration="954000" />
     </task>
     <servers />
   </component>
@@ -141,7 +167,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/work/heijmans-vastgoed/page.tsx</url>
           <line>23</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

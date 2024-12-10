@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const Page = () => (
 	<main>
 		<Hero background="/cases/amvest/thumbnail.jpg" dark={false}>
-			<h1>Amvest</h1>
+			<h1>Finding your dream house made easy</h1>
 		</Hero>
 
 		<Marquee autoFill className="border-b border-noir-700 py-6 xl:py-8">
@@ -45,12 +45,12 @@ const Page = () => (
 			url="https://amvest.nl"
 		>
 			<p className="intro">
-				As a leading real estate developer, Amvest sought to modernize their house finder
-				application to provide a seamless, user-friendly experience while ensuring
-				consistency across projects. The redesign aimed to balance functionality with
-				aesthetics, integrating data tools like HubSpot and offering users flexible search
-				options. To achieve this vision, Amvest partnered with ROX to design and develop a
-				revamped version of the tool.
+				As a leading real estate developer, Amvest sought to modernize their house finder.
+				Although technically separate applications, the redesign should integrate
+				seamlessly. Consistent in project styling and a user-friendly experience. The
+				redesign aims to balance functionality and aesthetics. On the technical side, it
+				needs to integrate HubSpot. To achieve this vision, Amvest partnered with ROX to
+				design and develop the new version.
 			</p>
 		</ProjectIntro>
 
@@ -66,9 +66,9 @@ const Page = () => (
 		<Text>
 			<h2>Problem statement</h2>
 			<p>
-				In an attempt to optimize work efficiency, Amvest identified the need for a cohesive
-				and modern solution for their house finder tool across various project websites. The
-				goal was to create a uniform layout that would not only enhance brand consistency
+				Amvest has been looking to improve their work efficiency and processes with HubSpot.
+				As part of this improvement, the house finder tool needs to be improved. The goal
+				was to create a uniform layout. One that would not only enhance brand consistency
 				but also improve usability. This redesign needed to integrate seamlessly with
 				HubSpot for data management.
 			</p>
@@ -86,12 +86,11 @@ const Page = () => (
 		<Text>
 			<h2>Research & insights</h2>
 			<p>
-				To inform the redesign, a comprehensive benchmarking session was conducted,
-				evaluating a wide range of house finders both nationally and internationally. For
-				housing detail pages, the insights extended beyond the construction sector, drawing
-				inspiration from platforms like Airbnb. This cross-industry approach ensured a fresh
-				perspective, prioritizing innovative solutions while keeping the focus on
-				housing-related functionality.
+				The project started of with a comprehensive benchmarking session. During this
+				session, we compared a wide variety of house finders. For content pages we extended
+				the insights to other sectors like vacation bookings. This cross-industry approach
+				provided innovative solutions. By applying Jakob's Law, we used familiar interface
+				elements to keep everything simple.
 			</p>
 		</Text>
 
@@ -107,12 +106,12 @@ const Page = () => (
 		<Text>
 			<h2>Design process</h2>
 			<p>
-				The redesign emphasized user flexibility, allowing visitors to choose between two
-				search modes: a visual map interface and a detail-oriented list view. Key
-				functionality was added to enable seamless switching between these modes. Leveraging
-				an existing project as a foundation, the design process was streamlined by the
-				application of project-specific styling, ensuring the house finder could be easily
-				themed to match any project’s unique branding.
+				The redesign emphasized user flexibility. Visitors were provided two main modes of
+				searching. For the visual inclined visitor we provided a map interface. More data
+				driven visitors can orientate and compare through a list view. Key functionality was
+				added to enable seamless switching between these modes. Styling related, we setup a
+				generic base with a styled layer on top. For this we used an existing project,
+				proving the ease to match any project's unique branding.
 			</p>
 		</Text>
 
@@ -135,10 +134,8 @@ const Page = () => (
 			<h2>Final outcome</h2>
 			<p>
 				The result is a house finder that is both visually appealing and user-friendly. Its
-				design aligns perfectly with Amvest's project websites, offering a consistent and
-				modern interface. Furthermore, the tool's adaptability allows it to be implemented
-				across various projects, ensuring its ease of use for Amvest while maintaining ease
-				of use for all visitors.
+				design blends in with Amvest's project websites, making it consistent and modern.
+				With the new mobile design, searching a house on your phone has never been easier.
 			</p>
 		</Text>
 

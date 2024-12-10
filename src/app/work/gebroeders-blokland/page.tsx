@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const Page = () => (
 	<main>
 		<Hero background="cases/gebroeders-blokland/thumbnail.jpg" dark={false}>
-			<h1>Gebroeders Blokland</h1>
+			<h1>Renovating an online presence</h1>
 		</Hero>
 
 		<Marquee autoFill className="border-b border-noir-700 py-6 xl:py-8">
@@ -38,11 +38,11 @@ const Page = () => (
 
 		<ProjectIntro logo="cases/gebroeders-blokland/logo.svg" url="https://gebroedersblokland.nl">
 			<p className="intro">
-				Gebroeders Blokland, a prominent name in construction and project development,
-				requested ROX to modernize their website to reflect their updated branding. As a
-				company known for constructing durable, sustainable buildings, the website redesign
-				was envisioned as a digital extension of their expertise: a solid, well-planned
-				structure that serves diverse stakeholders with functionality and aesthetic appeal.{' '}
+				Gebroeders Blokland is a prominent name in construction and project development.
+				They've requested ROX to modernize their website to reflect their updated branding.
+				The redesign was envisioned as a digital extension of their expertise. Solid, a
+				well-planned structure that serves their diverse stakeholders. Both through
+				functionality and aesthetics.
 			</p>
 		</ProjectIntro>
 
@@ -58,12 +58,11 @@ const Page = () => (
 		<Text>
 			<h2>Laying the foundation</h2>
 			<p>
-				Gebroeders Blokland approached the redesign of their website as a cornerstone
-				project to modernize their digital presence. They envisioned a robust online
-				platform reflecting the structural integrity and innovation they bring to their
-				construction projects. The website needed to embody their updated branding,
-				reinforcing their reputation as a forward-thinking, sustainable developer while
-				creating a solid foundation for better engagement with partners, and stakeholders.
+				The redesign was approached as a cornerstone to modernize their digital presence. A
+				robust online platform reflecting structural integrity and innovation. Also often
+				seen in their construction projects. The new website needed to reinforce their
+				reputation as forward-thinking and sustainable. It should also create a platform for
+				better engagement with partners and stakeholders.
 			</p>
 		</Text>
 
@@ -79,10 +78,11 @@ const Page = () => (
 		<Text>
 			<h2>Blueprints for success</h2>
 			<p>
-				Every good construction starts with a good plan. Through a collaboration with
-				Gebroeders Blokland, their marketing agency and ROX, we identified key functional
-				and aesthetic requirements. Sitemap, flowcharts and wireframes served as the
-				blueprint for the further development of this website.
+				Every good construction starts with a good plan. This one started with a
+				collaboration between the client, a marketing agency and ROX. Together, we
+				identified key functional and aesthetic requirements. We started with a sitemap,
+				flowcharts and wireframes. These became the blueprint for further development of the
+				new website.
 			</p>
 		</Text>
 
@@ -104,11 +104,11 @@ const Page = () => (
 		<Text>
 			<h2>Constructing the digital experience</h2>
 			<p>
-				The website’s design was crafted with a modular page builder in mind, offering
+				The website’s design was crafted with a modular page builder in mind. This provided
 				Gebroeders Blokland the flexibility to construct custom layouts using pre-designed
 				blocks. Through well planned out blocks it’s easy to build extensions to the
-				existing website whenever they grow and face new requirements to make them feel at
-				home.
+				existing website. By doing so, we provided room for growth whenever new requirements
+				arise.
 			</p>
 		</Text>
 

@@ -47,7 +47,7 @@ const Projects = () => {
 			<div>
 				<ProjectTile
 					index={1}
-					title="Blauwhoed"
+					title="Streamlining the path to homeownership"
 					logo={{
 						src: '/cases/blauwhoed/logo.svg',
 						alt: '',
@@ -59,7 +59,7 @@ const Projects = () => {
 				/>
 				<ProjectTile
 					index={2}
-					title="Amvest"
+					title="Finding your dream house made easy"
 					logo={{
 						src: '/cases/amvest/logo.svg',
 						alt: '',
@@ -71,7 +71,7 @@ const Projects = () => {
 				/>
 				<ProjectTile
 					index={3}
-					title="Gebroeders Blokland"
+					title="Renovating an online presence"
 					logo={{
 						src: '/cases/gebroeders-blokland/logo.svg',
 						alt: '',
@@ -83,7 +83,7 @@ const Projects = () => {
 				/>
 				<ProjectTile
 					index={4}
-					title="UNO"
+					title="Evolving together: Crafting UNO's digital journey"
 					logo={{
 						src: '/cases/uno/logo.svg',
 						alt: '',
@@ -119,7 +119,7 @@ const Projects = () => {
 				/>
 				<ProjectTile
 					index={7}
-					title="Constructing a design system for internal apps"
+					title="Rapidly building new project websites"
 					logo={{
 						src: '/cases/heijmans-vastgoed/mark.svg',
 						alt: '',
