@@ -19,8 +19,8 @@ const Home = () => (
 			<h1>Connecting digital productions with real world experiences.</h1>
 			<p>
 				My name is <strong>Jörgen</strong>. An aspiring creative director from{' '}
-				<strong>Rotterdam, The Netherlands 🌷.</strong> I specialize crafting digital
-				products that enrich everyday life.
+				<strong>Rotterdam, The Netherlands.</strong> I specialize crafting digital products
+				that enrich everyday life.
 			</p>
 		</Hero>
 
